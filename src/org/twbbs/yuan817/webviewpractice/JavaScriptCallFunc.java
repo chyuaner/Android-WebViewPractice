@@ -13,4 +13,10 @@ public class JavaScriptCallFunc {
 		HelpUtils.showAboutDialog(context);
 		Toast.makeText(context, "TEST", Toast.LENGTH_SHORT).show();
 	}
+	
+	public void displayArray(int[] array){
+		for(int i = 0; i<array.length; i++) {
+			Toast.makeText(context, String.valueOf(array[i]), Toast.LENGTH_SHORT).show();
+		}
+	}
 }
