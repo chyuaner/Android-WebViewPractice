@@ -12,12 +12,12 @@
  * 
  * Description: 所有有關"支援"資訊
  */
-package org.twbbs.yuan817.webviewpractice;
+package tw.yuaner.webviewpractice;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-
+import tw.yuaner.webviewpractice.R;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;

@@ -1,4 +1,4 @@
-package org.twbbs.yuan817.webviewpractice;
+package tw.yuaner.webviewpractice;
 
 import android.os.Bundle;
 import android.annotation.SuppressLint;
@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.Toast;
+import tw.yuaner.webviewpractice.R;
 
 @SuppressLint("JavascriptInterface")
 public class MainActivity extends Activity {
